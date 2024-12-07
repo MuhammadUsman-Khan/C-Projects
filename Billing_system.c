@@ -41,7 +41,7 @@ int main(){
     printf("Customer Details\n\n");
 
     printf("Customer Name : ");
-    scanf("%s", name);
+    scanf(" %[^\n]", name);
     printf("\nCustomer Number : ");
     scanf("%lld", &phone_number);
     printf("\nCustomer Id : ");
